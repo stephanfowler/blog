@@ -1,6 +1,7 @@
 # Site settings
 title: Stephan Fowler
 subtitle: Commentary
+description: ""
 baseurl: ""
 url: "http://stephanfowler.com/commentary"
 
