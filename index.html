@@ -6,7 +6,6 @@ layout: default
     {% for post in site.posts %}
       <div class="teaser">
           <div class="teaser__inner">
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img class="thumbnail" src="{{ post.thumbnail }}" /></a>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
           </div>

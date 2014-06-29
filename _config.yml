@@ -1,9 +1,9 @@
 # Site settings
 title: Stephan Fowler
-subtitle: Commentary
+subtitle: Blog
 description: ""
 baseurl: ""
-url: "http://stephanfowler.com/commentary"
+url: "http://stephanfowler.com/blog"
 
 # Build settings
 markdown: kramdown
