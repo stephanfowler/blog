@@ -1,0 +1,9 @@
+# Site settings
+title: Stephan Fowler
+subtitle: Commentary
+baseurl: ""
+url: "http://stephanfowler.com/commentary"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

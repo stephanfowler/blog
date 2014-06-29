@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <div class="teaser">
+          <div class="teaser__inner">
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img class="thumbnail" src="{{ post.thumbnail }}" /></a>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+          </div>
+      </div>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
