@@ -3,7 +3,7 @@ title: Stephan Fowler
 subtitle: Blog
 description: ""
 baseurl: ""
-url: "http://stephanfowler.com/blog"
+url: "http://blog.stephanfowler.com"
 
 # Build settings
 markdown: kramdown
